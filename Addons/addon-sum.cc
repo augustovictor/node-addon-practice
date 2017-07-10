@@ -11,6 +11,8 @@ void Sum(const v8::FunctionCallbackInfo<v8::Value>& args) { // Gives us access t
         a += b;
     }
 
+    printf("Opa");
+
     auto total = v8::Number::New(isolate, a); // Parse the value to v8 number type
     args.GetReturnValue().Set(total); // Return value to js file
 }

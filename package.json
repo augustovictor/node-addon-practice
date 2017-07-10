@@ -1,0 +1,27 @@
+{
+  "name": "addon-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "bindings": "^1.2.1",
+    "nan": "^2.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustovictor/node-addon-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/augustovictor/node-addon-practice/issues"
+  },
+  "homepage": "https://github.com/augustovictor/node-addon-practice#readme"
+}
